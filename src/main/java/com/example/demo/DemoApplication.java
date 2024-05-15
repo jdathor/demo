@@ -1,6 +1,7 @@
 package com.example.demo;
 
-import com.example.demo.resources.FarmCollectorResource;
+import com.example.demo.resources.HarvestedResource;
+import com.example.demo.resources.PlantedResource;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,7 +19,8 @@ public class DemoApplication extends ResourceConfig {
 	}
 
 	public DemoApplication() {
-		register(FarmCollectorResource.class);
+		register(PlantedResource.class);
+		register(HarvestedResource.class);
 	}
 
 }

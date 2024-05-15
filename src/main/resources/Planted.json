@@ -1,0 +1,38 @@
+{
+  "farm": [
+    {
+      "name": "MyFarm",
+      "season": "summer",
+      "plantingArea": 0.02,
+      "crops": [
+        {
+          "type": "corn",
+          "expectedAmount": 200,
+          "harvestedAmount": 200
+        },
+        {
+          "type": "potato",
+          "expectedAmount": 200,
+          "harvestedAmount": 200
+        }
+      ]
+    },
+    {
+      "name": "MyOtherFarm",
+      "season": "winter",
+      "plantingArea": 0.02,
+      "crops": [
+        {
+          "type": "corn",
+          "expectedAmount": 200,
+          "harvestedAmount": 200
+        },
+        {
+          "type": "potato",
+          "expectedAmount": 200,
+          "harvestedAmount": 200
+        }
+      ]
+    }
+  ]
+}
